@@ -1,7 +1,5 @@
 
-
-// Import Bootstrap JS
-import * as bootstrap from 'bootstrap';
+import 'bootstrap';
 import './custom.js';
 import './swiper.js'
 

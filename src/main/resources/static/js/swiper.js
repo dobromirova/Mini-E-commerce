@@ -58,8 +58,12 @@ function initializeSwiperCarousels() {
 
 		// ✅ Navigation
 		if (navigationEnabled) {
-			const nextButton = swiperContainer.querySelector('.swiper-button-next');
-			const prevButton = swiperContainer.querySelector('.swiper-button-prev');
+			const nextButton =
+				swiperContainer.querySelector('.swiper-button-next');
+
+			const prevButton =
+				swiperContainer.querySelector('.swiper-button-prev');
+
 			swiperOptions.navigation = {
 				nextEl: nextButton,
 				prevEl: prevButton,
